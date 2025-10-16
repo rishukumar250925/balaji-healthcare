@@ -1,0 +1,137 @@
+#dropdowncolorchange{
+    color: black;
+}
+
+#dropdowncolorchange:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+#blcr{
+
+    color: rgb(90, 85, 85);
+}
+
+#blcr:hover{
+
+    color: rgb(102, 138, 228);
+    transition: 0.5s;
+}
+
+#colourofcheckupssection{
+    color: darkblue;
+}
+
+ #roundcheck{
+    list-style: none;
+}
+
+#roundcheck::before{
+    content: '☑';
+    color: black;
+    font-size: 1rem;
+    margin-right: 5px;
+} 
+
+#homecheck{
+    list-style: none;
+}
+#homecheck::before{
+    content: '🏠︎';
+    color: rgb(75, 70, 70);
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+#nolist1{
+    list-style: none;
+    font-weight: bolder;
+    
+}
+#nolist2{
+    list-style: none;
+    text-align: center;
+    width: 400px;
+}
+
+#btnhover{
+    padding: 5px;
+    text-transform: uppercase;
+    color: blue;
+    border:1px solid blue;
+    border-radius: 3px;
+}
+
+#btnhover:hover{
+    padding: 5px;
+    text-transform: uppercase;
+    color: red;
+    border:1px solid red;
+    transition: 1s;
+}
+
+#btnhover1{
+    text-align: center;
+     justify-content: center;
+     border: 1px solid blue;
+     width: 250px;
+     color: blue;
+     padding:4px;
+     border-radius:3px;
+     cursor: pointer;
+}
+
+#btnhover1:hover{
+    text-align: center;
+     justify-content: center;
+     border: 1px solid red;
+     width: 250px;
+     color: red;
+     padding:4px;
+     border-radius:3px;
+     transition: 1s;
+     
+}
+
+#advancedsghover{
+    padding: 5px;
+    background-color: wheat;
+    text-align: center;
+    border-radius:4px;
+    width: 120px;
+    cursor: pointer;
+}
+
+#advancedsghover:hover{
+    padding: 5px;
+    background-color: wheat;
+    text-align: center;
+    border-radius:4px;
+    width: 120px;
+    cursor: pointer;
+    color: rgb(2, 49, 102);
+    transition: 0.7s;
+}
+
+#btnwhatsapp{
+    text-align: center;
+    justify-content: center;
+    border: 0px solid black;
+    width: 250px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+#btnwhatsapp:hover{
+    text-align: center;
+    justify-content: center;
+    border: 0px solid black;
+    width: 250px;
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#checkuptitle{
+    color: blue;
+}

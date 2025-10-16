@@ -1,0 +1,80 @@
+* {
+
+    margin: 2px;
+    
+}
+
+#hover1 {
+    background-color: red;
+    display: flex;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: default
+}
+
+#hover1:hover {
+
+    background-color: blue;
+    transition: 0.5s;
+}
+
+#listicon{
+
+    list-style: none;
+    color:black;
+
+}
+
+#listicon::before{
+    content: "✓";
+    color: green;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 1rem;
+
+
+}
+.dropdown{
+    position: relative;
+}
+
+.dropdown-menu{
+    position: absolute;
+    
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+
+}
+
+#consult{
+    border: none;
+    color: red;
+    background-color: white;
+}
+#consult:hover{
+    border: none;
+    color: blue;
+    background-color: white;
+}
+
+#appointmentbutton{
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 4px;padding: 5px;
+    background-color: #ff0000
+}
+
+#appointmentbutton:hover{
+    background-color: blue;
+    transition: 0.5s;
+
+}
+
+#list-example :hover
+{
+ color: blue;
+}
